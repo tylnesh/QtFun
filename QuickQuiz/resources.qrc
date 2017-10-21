@@ -1,1 +1,7 @@
-<RCC/>
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>res/bomb.png</file>
+    <file>res/boom.gif</file>
+    <file>res/explosion.mp3</file>
+</qresource>
+</RCC>

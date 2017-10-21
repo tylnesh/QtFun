@@ -13,10 +13,10 @@ Dialog::Dialog(QWidget *parent, bool math, bool english) :
     ui(new Ui::Dialog)
 {
     ui->setupUi(this);
-    QPixmap pix("/home/tylnesh/QuickQuiz/img/bomb.png");
+    QPixmap pix(":res/bomb.png");
     player = new QMediaPlayer;
-    player->setMedia(QUrl::fromLocalFile("/home/tylnesh/QuickQuiz/img/explosion.mp3"));
-    fireball = new QMovie("/home/tylnesh/QuickQuiz/img/boom.gif");
+    player->setMedia(QUrl::fromLocalFile(":res/explosion.mp3"));
+    fireball = new QMovie(":res/boom.gif");
     player->setVolume(50);
     ui->label->setPixmap(pix);
     time = new QTime(0,5,0);
